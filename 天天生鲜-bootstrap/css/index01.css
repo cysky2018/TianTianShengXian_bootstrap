@@ -1,0 +1,160 @@
+.body{
+	font-family:Microsoft Yahei: 
+}
+
+.navbar-brand{
+	padding:6px 15px;
+}
+
+.navbar-inverse {
+    background-color: #ff722b;
+    border-color: #ff722b;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+ }
+
+.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
+    background-color: pink;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+.jumbotron{
+	background:url(../images/banner_bg.jpg) center center no-repeat;
+	padding: 24px 0;
+	margin-bottom: 0px;
+}
+
+.banner-title{
+	margin-top: 40px;
+}
+
+.active_title{
+	font-size: 18px;
+	color: #ff0;
+	margin-top: 20px;
+}
+
+.jumbotron .active_detail{
+	font-size: 14px;
+	color:#fff;
+	line-height:28px;
+}
+
+.banner_title{
+	margin-top: 40px;
+}
+
+@media(max-width: 768px){
+	.banner-title{
+	margin-top: 10px;
+	}
+}
+
+@media(max-width: 992px){
+	.col-lg-4 .col-lg-offset-1 .col-md-4 .col-md-offset-1 .col-sm-5 .col-sm-offset-3 .hidden-xs{
+	margin-top: 30px;
+	}
+}
+
+.active_pic_title{
+	font-size: 30px;
+	color: #333;
+	margin:30px 0 15px;
+}
+
+.active_pic_detail{
+	font-size: 14px;
+	color:#333;
+}
+
+.active-pic-word{
+	font-size: 13px;
+	margin:10px 0 5px;
+	color:#333;
+}
+
+.thumbnail{
+	max-width:260px;
+	margin:0 auto 20px;
+}
+
+.common-title{
+	background-color: #ff722b;
+	height:40px;
+}
+
+.common-title h3{
+	margin:0 0 0 20px;
+	padding:0px;
+	line-height: 40px;
+	font-size: 16px;
+	color:#fff;
+}
+
+.common-title a{
+	margin:15px 10px 0 0;
+	font-size: 12px;
+	color:#fff;
+}
+
+.goods_list_show .goods_name{
+	text-align: center;
+	color:#666;
+	font-size: 14px;
+}
+
+.goods_list_show .goods_price{
+	font-size: 16px;
+	color: #f00;
+	text-align: center;
+}
+
+.goods_list_show .goods_price em{
+	font-style: normal;
+	font-size: 22px;
+}
+
+.goods_list_show{
+	border:1px solid #ddd;
+	margin-top: 20px;
+}
+
+.goods_list{
+	margin:0;
+
+}
+
+.goods_list_show a img{
+	margin:0 auto;
+}
+
+.footer{
+	height:135px;
+	width:100%;
+	color:#fff;
+	background-color: #ff722b;
+}
+
+.footer .text-center{
+	margin-bottom:5px;
+}
+
+.footer a{
+	color:#fff;
+}
